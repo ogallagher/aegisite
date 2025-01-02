@@ -48,7 +48,7 @@ in rounding errors.
 
 Displays the time to the start and end time of the active subtitle line.
 This is mostly useful for override tags which take relative times, such as
-[\\t]({{< relref "ASS_Tags#animatedtransform" >}}) and [\\fad]({{< relref "ASS_Tags#fade" >}}).
+[\\t]({{< relref "ASS_Tags#\t" >}}) and [\\fad]({{< relref "ASS_Tags#\fad" >}}).
 
 ### Zoom
 
@@ -101,7 +101,7 @@ This is the standard mode. Hovering the mouse over the video will show the
 script coordinates under the cursor, as well as a crosshair indicating the
 exact point that you are looking at. Holding down shift will make it instead
 show the distance from the bottom-right corner. Double clicking a point will
-position the current line (using the [\\pos tag]({{< relref "ASS_Tags#setposition" >}})) on
+position the current line (using the [\\pos tag]({{< relref "ASS_Tags#\pos" >}})) on
 that position.  If alt is held down while double-clicking, all other selected
 lines will be shifted by the same distance as the active line, including lines
 not visible on the current frame.
@@ -117,7 +117,7 @@ on the auxiliary visual typesetting bar.
 
 On the positioning mode, you can simply click-and-drag subtitles across the
 video surface by dragging their anchor (the square). They will be positioned
-where you release them with the [\\pos]({{< relref "ASS_Tags#setposition" >}}) command.
+where you release them with the [\\pos]({{< relref "ASS_Tags#\pos" >}}) command.
 
 On the movement mode, there is another anchor, the end-of-movement anchor,
 which is represented by a circle. There will be an arrow pointing from the
@@ -155,7 +155,7 @@ surrounded by 6 arcs that help mark and measure angles.
 
 There are two functionalities in this mode. You can either drag the origin
 point (the triangle at the center of the circle) to move it (and insert a
-[\\org]({{< relref "ASS_Tags#rotationorigin" >}}) tag, if none exists), or you can click and
+[\\org]({{< relref "ASS_Tags#\org" >}}) tag, if none exists), or you can click and
 drag anywhere else to rotate the line.
 
 You will notice that there is a line connecting the center of the circle to the
